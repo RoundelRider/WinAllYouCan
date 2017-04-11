@@ -369,7 +369,7 @@ void MainWindow::on_score_max_clicked()
         }
         ui->label_MaxScoreA->setText(QString::number(teama_total));
         ui->label_MaxScoreB->setText(QString::number(teamb_total));
-        ui->label_CombinedTotal->setText("&Team Total");
+        ui->label_CombinedTotal->setText("");
     }
     else if (ui->score_max->text().contains("Combined")) {
         // Show the max possible scores
